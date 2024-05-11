@@ -30,7 +30,7 @@ API criada para ser utilizado no [Customer APP](https://github.com/marllonmendez
 ```bash
 mvn install
 ```
-Este comando irá baixar as dependências do projeto e construir o projeto. Ele executa as fases `compile`, `test`, e `package` do ciclo de vida do Maven. O artefato construído geralmente será colocado no diretório `target` do projeto.
+Este comando irá baixar as dependências do projeto e construir o projeto. Ele executa as fases `compile`, `test`, e `package` do ciclo de vida do Maven.
 
 <h4>2. Configuração do Banco de Dados PostgreSQL:</h4>
  
