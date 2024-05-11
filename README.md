@@ -10,7 +10,7 @@
 [![Sprinb Boot](https://img.shields.io/badge/Spring_Boot-070826?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![Hinernate](https://img.shields.io/badge/Hibernate-070826?style=for-the-badge&logo=Hibernate&logoColor=white)](https://hibernate.org/)
 [![Maven](https://img.shields.io/badge/Maven-070826?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-070826?style=for-the-badge&logo=postgresql&logoColor=white)](https://maven.apache.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-070826?style=for-the-badge&logo=postgresql&logoColor=white)](postgresql.org/)
 
 </div>
 
@@ -64,5 +64,3 @@ mvn clean
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
-
