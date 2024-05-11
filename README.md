@@ -25,9 +25,6 @@ mvn install
 ```
 Este comando irá baixar as dependências do projeto e construir o projeto. Ele executa as fases `compile`, `test`, e `package` do ciclo de vida do Maven. O artefato construído geralmente será colocado no diretório `target` do projeto.
 
-**Observação:**
-Durante a criação do projeto, foi encontrada uma inconsistência com o plugin Surefire do Maven. Após muita pesquisa, cheguei à conclusão de que o atual plugin está com erro de versão. Portanto, configurei para pular o teste que o mesmo realiza. 
-
 <h4>Configuração do Banco de Dados PostgreSQL:</h4>
  
 **Observação:**
