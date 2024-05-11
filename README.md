@@ -18,7 +18,7 @@
 ## Sobre
 API criada para ser utilizado no [Customer APP](https://github.com/marllonmendez/customer-app)
 
-## Funções
+## Funcionalidades
 
 - Cadastro de Clientes;
 - Listagem de CLientes;
