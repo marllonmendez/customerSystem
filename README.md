@@ -18,15 +18,21 @@
 ## Sobre
 API criada para ser utilizado no [Customer APP](https://github.com/marllonmendez/customer-app)
 
+## Funções
+
+- Cadastro de Clientes;
+- Listagem de CLientes;
+- Busca de Clientes.
+
 ## Execução
-<h4>Instalação de Dependências:</h4>
+<h4>1. Instalação de Dependências:</h4>
 
 ```bash
 mvn install
 ```
 Este comando irá baixar as dependências do projeto e construir o projeto. Ele executa as fases `compile`, `test`, e `package` do ciclo de vida do Maven. O artefato construído geralmente será colocado no diretório `target` do projeto.
 
-<h4>Configuração do Banco de Dados PostgreSQL:</h4>
+<h4>2. Configuração do Banco de Dados PostgreSQL:</h4>
  
 **Observação:**
 O PostgreSQL deve sempre estar aberto. Caso contrário, a API encerrará sua execução, informando que não encontrou o banco de dados.
@@ -36,7 +42,7 @@ O PostgreSQL deve sempre estar aberto. Caso contrário, a API encerrará sua exe
 - Configure o usuário do banco de dados no arquivo `src/main/resources/application.properties` na propriedade `spring.datasource.username`. Este usuário deve corresponder o mesmo configurado no PostgreSQL.
 - Abra o PostgreSQL e crie um **Banco de Dados** chamado `customerSystem` somente assim a aplicação fara a conexão com o database ou se preferir mude o nome/porta no arquivo `src/main/resources/application.properties` na propriedade `spring.datasource.url`.
 
-<h4>Execução do Projeto:</h4>
+<h4>3. Execução do Projeto:</h4>
 
 ```bash
 mvn spring-boot:run
@@ -46,12 +52,12 @@ mvn spring-boot:run
 - Se no terminal perguntar ``Deseja finalizar o arquivo em lotes (S/N)?`` responda ``S``
 
 
-<h4>Configuração de requisições HTTP (Para Testes):</h4>
+<h4>4. Configuração de requisições HTTP (Para Testes):</h4>
 
 - Instale o [Insominia](https://insomnia.rest/)
 - configure e importe dentro do Insominia o projeto [Customer API](https://drive.google.com/drive/folders/1Yqjj-nLGlGoynUlFK0H-QcyBVTQRYTxb?usp=sharing)
 
-<h4>Limpeza do Projeto:</h4>
+<h4>5. Limpeza do Projeto:</h4>
 
 - Este comando remove os arquivos gerados durante a compilação e construção do projeto. Isso é útil se você deseja limpar o projeto antes de construir novamente.
 
