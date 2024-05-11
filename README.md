@@ -59,11 +59,11 @@ mvn spring-boot:run
 
 <h4>5. Limpeza do Projeto:</h4>
 
-- Este comando remove os arquivos gerados durante a compilação e construção do projeto. Isso é útil se você deseja limpar o projeto antes de construir novamente.
-
 ```bash
 mvn clean
 ```
+
+Este comando remove os arquivos gerados durante a compilação e construção do projeto. Isso é útil se você deseja limpar o projeto antes de construir novamente.
 
 ## Licença
 
